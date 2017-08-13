@@ -1,4 +1,5 @@
 #!/bin/bash
+cd "`dirname "$0"`"
 pip install -r requirements.txt --target ./packages
 if [ -d packages ]; then
 	cd packages
