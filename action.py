@@ -146,8 +146,3 @@ def dragged():
             temp += '{}\n\t{}\n'.format(result['name'], result['share_url'])
         dz.text(temp)
         dz.finish('Files info in your clipboard.')
-
-def clicked():
-    # This method gets called when a user clicks on your action
-    dz.finish("You clicked me!")
-    dz.url(False)
